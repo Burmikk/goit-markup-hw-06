@@ -520,14 +520,12 @@
           <strong class="subscription-title">Підпишіться на розсилку</strong>
           <form class="subscription-form">
             <input class="subscription-field" type="email" name="email" placeholder="E-mail" />
-            <div class="subscription-group">
-              <button class="subscription-btn" type="submit">
-                Підписатися
-                <svg class="subscription-send-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </div>
+            <button class="subscription-btn" type="submit">
+              Підписатися
+              <svg class="subscription-send-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -578,12 +576,10 @@
             placeholder="Введіть текст"
           ></textarea>
           <!-- Checkbox -->
-          <label class="checkbox-lable" for="comments">
-            <input class="checkbox" type="checkbox" id="comments" name="agreement" />
-            <p class="checkbox-text">
-              Погоджуюся з розсилкою та приймаю
-              <a class="checkbox-link" href="">Умови договору</a>
-            </p>
+          <label class="modal-form-agreement">
+            <input class="modal-form-checkbox" type="checkbox" name="agreement" />
+            <span class="checkbox-text"> Погоджуюся з розсилкою та приймаю </span>
+            <a class="checkbox-link" href="">Умови договору</a>
           </label>
           <button class="modal-form-btn" type="submit">Відправити</button>
         </form>
